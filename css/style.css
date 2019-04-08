@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: green;
+}
+
+.game-frame {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.game-container {
+    border: 0;
+    clear: both;
+}
+
+h1 {
+    font-size: 2em;
+    color: green;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 5px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.5;}
+}
+
+.blink{
+	display: block;
+	margin: 5px;
+	font-size: 1.3em;
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count:infinite;
+
+}
