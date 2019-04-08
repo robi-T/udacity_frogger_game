@@ -18,10 +18,10 @@ reached, the player earns 100 points. When the player collects 500 points (reach
 ## Implementation
 
 The following files have been changed:
-index.html
-css/style.css
-js/app.js
-js/engine.js (minor but relevant fixes and small updates)
+- index.html
+- css/style.css
+- js/app.js
+- js/engine.js (minor but relevant fixes and small updates)
 
 The application logic is implemented in js/app.js file and since it is well documented the reader is directed to the source file for more details.
 
